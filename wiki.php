@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+	<link rel="stylesheet" type="text/css" href="wiki.css">
         <meta charset="utf-8">
         <title>Wiki</title>
     </head>
