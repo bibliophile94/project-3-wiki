@@ -1,6 +1,10 @@
 .hidden {
 	display: none;
 }
+#content:hover {
+    background: #ff9;
+}
 body {
     background-color: lightblue;
+	font-family: helvetica,sans-serif;
 }

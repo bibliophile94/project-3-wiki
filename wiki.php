@@ -23,10 +23,6 @@ $safe_content = htmlentities($content);
     <?php echo $safe_content; ?>
 </div>
 <form class="hidden" action="wiki.php">
-$('#content').click(function() {
-    $('form').removeClass('hidden');
-    $('#content').addClass('hidden');
-});
     <textarea name="content" rows="8" cols="80"><?php
 
 echo $safe_content;
@@ -34,5 +30,11 @@ echo $safe_content;
 ?></textarea>
     <input type="submit" value="Save">
 </form>
+<script>
+$('#content').click(function() {
+    $('form').removeClass('hidden');
+    $('#content').addClass('hidden');
+});
+</script>
 </body>
 </html>
