@@ -5,5 +5,6 @@ if (file_exists('wiki.txt')) {
 } else {
     $content = '(no content)';
 }
-
+$safe_content = htmlentities($content);
+echo $safe_content;
 ?>
