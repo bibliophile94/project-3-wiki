@@ -23,7 +23,7 @@ $safe_content = htmlentities($content);
     <?php echo $safe_content; ?>
 </div>
 <form action="wiki.php">
-    <textarea name="content" rows="8" cols="80"><?php
+    <textarea name="content" rows="1" cols="20"><?php
 
 echo $safe_content;
 
